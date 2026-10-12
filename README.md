@@ -55,6 +55,19 @@ a step at a time; the state survives a restart; "Harder" off clamps at normal; t
 Not covered: nobody has played a long session with it, so the default pace (10% a death, 8 rooms a step back) is a
 first guess, not a tuned one.
 
+## More CleriaCore mods
+
+Each one is a small Lua mod that shows a different part of the mod API:
+
+- [Mutators](https://github.com/4rtefakt/cleriacore-mutators): challenge rules: Glass Cannon, Berserker, One Hit, Vampire, Midas, Famine, Permadeath, a level cap
+- [Solo Randomizer](https://github.com/4rtefakt/cleriacore-solo-randomizer): the tower's chests shuffled from a seed, always beatable, no server
+- [Roguelite Perks](https://github.com/4rtefakt/cleriacore-roguelite-perks): every boss beaten lets you choose one of three random perks
+- [Run HUD](https://github.com/4rtefakt/cleriacore-run-hud): room and run time, kills, deaths, damage per second
+- [Crowd Control](https://github.com/4rtefakt/cleriacore-crowd-control): Twitch chat votes on what happens to you
+- [LiveSplit Autosplitter](https://github.com/4rtefakt/cleriacore-livesplit): starts and splits LiveSplit over its WebSocket server
+- [Bestiary+](https://github.com/4rtefakt/cleriacore-bestiary): a per-save hunting log of every monster killed
+- [Archipelago](https://github.com/4rtefakt/ys-origin-cleriacore-ap): the multiworld randomizer client, the biggest one
+
 ## About
 
 Written with AI assistance (Claude Code) as a showcase of the CleriaCore mod API, and tested as described above.
